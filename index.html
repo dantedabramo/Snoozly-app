@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#171A30">
+<title>Snoozly — Put the phone down. Actually fall asleep.</title>
+<meta name="description" content="Snoozly is a sleep routine app for iPhone. A calm wind-down, apps paused until morning, an alarm that rings on silent, sleep sounds and a morning check-in. No account needed.">
+<meta property="og:title" content="Snoozly — Put the phone down. Actually fall asleep.">
+<meta property="og:description" content="Snoozly is a sleep routine app for iPhone. A calm wind-down, apps paused until morning, an alarm that rings on silent, sleep sounds and a morning check-in. No account needed.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snoozly">
+<meta property="og:image" content="assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="apple-itunes-app" content="app-id=6822070712">
+<link rel="icon" type="image/svg+xml" href="assets/img/icon.svg">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Snoozly", "operatingSystem": "iOS 26 or later", "applicationCategory": "HealthApplication", "description": "A sleep routine app for iPhone: wind-down reminders, Quiet Apps, a wake-up alarm, sleep sounds and morning check-ins.", "author": {"@type": "Person", "name": "Dante D’Abramo"}, "downloadUrl": "https://apps.apple.com/app/id6822070712", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+</head>
+<body data-page="home">
+<a class="skip" href="#main">Skip to content</a>
+<div class="sky" aria-hidden="true"><canvas class="stars"></canvas><div class="dawn"></div></div>
+
+<header class="bar" id="bar">
+  <div class="bar-in">
+    <a class="brand" href="#top" data-go="top" aria-label="Snoozly home"><img src="assets/img/icon.svg" alt="" width="30" height="30"><span>Snoozly</span></a>
+    <nav class="nav" aria-label="Sections"><a href="#night" data-nav="night" data-go="night">The night</a><a href="#progress" data-nav="progress" data-go="progress">Progress</a><a href="#pro" data-nav="pro" data-go="pro">Pro</a><a href="#faq" data-nav="faq" data-go="faq">FAQ</a></nav>
+    <a class="btn btn-lav btn-sm get" data-app href="https://apps.apple.com/app/id6822070712">Get Snoozly</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu"><i></i><i></i></button>
+  </div>
+  <div class="menu glass" id="menu" hidden>
+    <nav aria-label="Menu"><a href="#night" data-nav="night" data-go="night">The night</a><a href="#progress" data-nav="progress" data-go="progress">Progress</a><a href="#pro" data-nav="pro" data-go="pro">Pro</a><a href="#faq" data-nav="faq" data-go="faq">FAQ</a><a href="support.html">Support</a></nav>
+    <a class="btn btn-lav" data-app href="https://apps.apple.com/app/id6822070712">Get Snoozly on the App Store</a>
+  </div>
+</header>
+
+<main id="main">
+  <span id="top"></span>
+
+  <!-- Hero: the creature dozes over the headline, three real screens rise beneath it. -->
+  <section class="hero">
+    <div class="critter" aria-hidden="true">
+<svg viewBox="80 80 880 880" focusable="false">
+<g class="cr-stars"><path d="M179 198.4C187.133 217.267 200.633 230.733 219.5 238.8C200.633 246.933 187.133 260.433 179 279.3C170.933 260.433 157.466 246.933 138.6 238.8C157.466 230.733 170.933 217.267 179 198.4ZM302.2 130.6C306.8 141.267 314.433 148.9 325.1 153.5C314.433 158.033 306.8 165.667 302.2 176.4C297.666 165.667 290.066 158.033 279.4 153.5C290.066 148.9 297.666 141.267 302.2 130.6ZM777.4 120C782.733 132.333 791.533 141.133 803.8 146.4C791.533 151.733 782.733 160.533 777.4 172.8C772.133 160.533 763.333 151.733 751 146.4C763.333 141.133 772.133 132.333 777.4 120ZM115.7 602.3C119.566 611.3 126 617.733 135 621.6C126 625.467 119.566 631.933 115.7 641C111.833 631.933 105.366 625.467 96.2998 621.6C105.366 617.733 111.833 611.3 115.7 602.3ZM847.8 692.9C852.066 702.767 859.133 709.8 869 714C859.133 718.267 852.066 725.333 847.8 735.2C843.6 725.333 836.566 718.267 826.7 714C836.566 709.8 843.6 702.767 847.8 692.9Z" fill="#F5D78E" style="fill:#F5D78E;fill:color(display-p3 0.9608 0.8431 0.5569);fill-opacity:1;"/></g>
+<g class="cr-body">
+<g><path d="M 480 348.8 C 645.4 348.8 752.8 454.4 761.6 604 C 768.6 753.6 671.8 837.2 480 837.2 C 288.2 837.2 191.4 753.6 198.4 604 C 207.2 454.4 314.6 348.8 480 348.8 Z M 438.6 836.4 C 438.6 857.7 407.1 875.1 368.2 875.1 C 329.3 875.1 297.8 857.7 297.8 836.4 C 297.8 815 329.3 797.6 368.2 797.6 C 407.1 797.6 438.6 815 438.6 836.4 Z M 662.2 836.4 C 662.2 857.7 630.7 875.1 591.8 875.1 C 552.9 875.1 521.4 857.7 521.4 836.4 C 521.4 815 552.9 797.6 591.8 797.6 C 630.7 797.6 662.2 815 662.2 836.4 Z M 232.6 743.7 C 226.6 768.2 207.8 784.7 190.8 780.5 C 173.8 776.2 165 752.9 171.2 728.4 C 177.3 703.8 196 687.4 213 691.6 C 230 695.9 238.8 719.1 232.6 743.7 Z M 788.8 728.4 C 795 752.9 786.2 776.2 769.2 780.5 C 752.2 784.7 733.4 768.2 727.4 743.7 C 721.2 719.1 730 695.9 747 691.6 C 764 687.4 782.7 703.8 788.8 728.4 Z" fill="#A78BFA" style="fill:#A78BFA;fill:color(display-p3 0.6549 0.5451 0.9804);fill-opacity:1;"/>
+<path d="M 263.649 474.59 C 411.143 507.315 548.857 507.315 696.351 474.59 C 721.599 469.662 732.077 497.089 700.043 502.388 C 558.637 539.204 401.363 539.204 259.957 502.388 C 227.923 497.089 238.401 469.662 263.649 474.59 Z" fill="#8A6CEE" style="fill:#8A6CEE;fill:color(display-p3 0.5412 0.4235 0.9333);fill-opacity:1;"/>
+<path d="M 235.4 646.3 C 233.601 700.8 256.5 753.6 298.701 787.1 C 275.801 748.4 270.601 700.8 281.101 653.3 C 267 639.2 244.2 635.7 235.4 646.3 Z" fill="#C4B5FD" style="fill:#C4B5FD;fill:color(display-p3 0.7686 0.7098 0.9922);fill-opacity:1;"/></g>
+<g><path fill="#A08EF2" d="M 575 243.2 C 636.6 230.9 698.2 250.3 738.7 296 C 791.5 357.6 793.3 445.6 798.6 516 L 775.7 472 C 759.8 428 733.4 366.4 708.8 296 C 687.7 230 649.8 176.4 592.6 167.6 Z"/>
+<path fill="#C4B5FD" d="M 192.2 472 C 194.9 385.8 245.9 289 339.2 230.9 C 416.6 183.4 511.7 157 592.6 167.6 C 649.8 176.4 687.7 230 708.8 296 C 733.4 366.4 759.8 428 775.7 472 C 592.6 551.2 367.4 551.2 192.2 472 Z"/>
+<path fill="#DDD3FF" d="M 228.3 479.1 C 221.3 357.6 260 289 325.1 246.8 C 282.9 301.3 265.3 357.6 270.6 479.1 Z"/>
+<path fill="#EFE9FF" d="M 170.2 445.6 C 381.4 516 578.6 516 789.8 445.6 C 825.8 435.1 840.8 494 795 505.5 C 592.6 584.7 367.4 584.7 165 505.5 C 119.2 494 134.2 435.1 170.2 445.6 Z"/>
+<path fill="#C4B5FD" d="M 522.2 181.6 C 663 111.2 821.4 155.2 860.2 313.6 C 874.2 392.8 872.5 463.2 856.6 519.6 C 846.1 547.7 807.4 544.2 798.6 516 C 793.3 445.6 791.5 357.6 738.7 296 C 698.2 250.3 636.6 230.9 575 243.2 Z"/></g>
+<g class="cr-pom"><path fill="#F5D78E" d="M 876 540.7 C 876 568.8 853.1 591.7 825 591.7 C 796.8 591.7 773.9 568.8 773.9 540.7 C 773.9 512.5 796.8 489.6 825 489.6 C 853.1 489.6 876 512.5 876 540.7 Z M 897.1 554.8 C 897.1 572.7 882.5 587.3 864.6 587.3 C 846.6 587.3 832 572.7 832 554.8 C 832 536.8 846.6 522.2 864.6 522.2 C 882.5 522.2 897.1 536.8 897.1 554.8 Z M 870.7 581.2 C 870.7 599.1 856.1 613.7 838.2 613.7 C 820.2 613.7 805.6 599.1 805.6 581.2 C 805.6 563.2 820.2 548.6 838.2 548.6 C 856.1 548.6 870.7 563.2 870.7 581.2 Z M 834.6 575.9 C 834.6 593.8 820 608.4 802.1 608.4 C 784.1 608.4 769.5 593.8 769.5 575.9 C 769.5 557.9 784.1 543.3 802.1 543.3 C 820 543.3 834.6 557.9 834.6 575.9 Z M 815.3 545.1 C 815.3 563 800.7 577.6 782.7 577.6 C 764.8 577.6 750.2 563 750.2 545.1 C 750.2 527.1 764.8 512.5 782.7 512.5 C 800.7 512.5 815.3 527.1 815.3 545.1 Z M 828.5 510.8 C 828.5 528.7 813.9 543.3 795.9 543.3 C 778 543.3 763.4 528.7 763.4 510.8 C 763.4 492.8 778 478.2 795.9 478.2 C 813.9 478.2 828.5 492.8 828.5 510.8 Z M 862.8 498.4 C 862.8 516.4 848.2 531 830.2 531 C 812.3 531 797.7 516.4 797.7 498.4 C 797.7 480.5 812.3 465.9 830.2 465.9 C 848.2 465.9 862.8 480.5 862.8 498.4 Z M 893.6 518.7 C 893.6 536.6 879 551.2 861 551.2 C 843.1 551.2 828.5 536.6 828.5 518.7 C 828.5 500.7 843.1 486.1 861 486.1 C 879 486.1 893.6 500.7 893.6 518.7 Z"/>
+<path fill="#FBEBC0" d="M 818.8 517.8 C 818.8 526.1 812.1 532.8 803.8 532.8 C 795.6 532.8 788.9 526.1 788.9 517.8 C 788.9 509.5 795.6 502.8 803.8 502.8 C 812.1 502.8 818.8 509.5 818.8 517.8 Z"/></g>
+<g><path fill="#E88CA8" d="M 333.9 707.9 C 333.9 721.5 315.8 732.5 293.4 732.5 C 271.1 732.5 253 721.5 253 707.9 C 253 694.2 271.1 683.2 293.4 683.2 C 315.8 683.2 333.9 694.2 333.9 707.9 Z M 707 707.9 C 707 721.5 688.9 732.5 666.6 732.5 C 644.2 732.5 626.1 721.5 626.1 707.9 C 626.1 694.2 644.2 683.2 666.6 683.2 C 688.9 683.2 707 694.2 707 707.9 Z"/>
+<path fill="#171A30" d="M 316.3 627.8 Q 370 657.7 423.7 627.8 C 443.6 627.8 443.6 657.7 423.7 657.7 Q 370 687.6 316.3 657.7 C 296.4 657.7 296.4 627.8 316.3 627.8 Z M 536.3 627.8 Q 590 657.7 643.7 627.8 C 663.6 627.8 663.6 657.7 643.7 657.7 Q 590 687.6 536.3 657.7 C 516.4 657.7 516.4 627.8 536.3 627.8 Z M 506.4 731.6 C 506.4 750.1 494.6 765.1 480 765.1 C 465.4 765.1 453.6 750.1 453.6 731.6 C 453.6 713.2 465.4 698.2 480 698.2 C 494.6 698.2 506.4 713.2 506.4 731.6 Z"/>
+<path fill="#F28C9B" d="M 495 750.1 C 495 756.9 488.3 762.4 480 762.4 C 471.7 762.4 465 756.9 465 750.1 C 465 743.3 471.7 737.8 480 737.8 C 488.3 737.8 495 743.3 495 750.1 Z"/></g>
+</g>
+</svg>
+      <span class="zz"><i>z</i><i>z</i><i>Z</i></span>
+    </div>
+    <h1 id="hl"><span class="l1">Put the phone down.</span> <span class="l2">Actually fall asleep.</span></h1>
+    <p class="hero-sub">Snoozly plans a calm wind-down, quiets the apps that keep you up, wakes you even when your phone is silent, and shows how you really slept.</p>
+    <div class="acts">
+      <a class="badge" data-app href="https://apps.apple.com/app/id6822070712"><img src="assets/img/app-store.svg" alt="Download on the App Store" width="144" height="48"></a>
+      <a class="btn btn-glass glass" href="#night" data-go="night">Walk through a night</a>
+    </div>
+    <p class="note">For iPhone · No account needed · Free to download</p>
+    <div class="fan" aria-hidden="true">
+      <div class="ph fan-l"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/schedule.jpg" alt="" width="780" height="1696" decoding="async"></span></span></div>
+      <div class="ph fan-c"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/tonight.jpg" alt="" width="780" height="1696" decoding="async"></span></span></div>
+      <div class="ph fan-r"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/progress.jpg" alt="" width="780" height="1696" decoding="async"></span></span></div>
+    </div>
+  </section>
+
+  <!-- The night: a timeline that runs from wind-down to the morning check-in. -->
+  <section class="night" id="night">
+    <header class="sec-head center">
+      <h2>One night with Snoozly.</h2>
+      <p class="lede">From the first nudge at wind-down to the check-in over breakfast.</p>
+    </header>
+    <div class="timeline">
+    <div class="line" aria-hidden="true"><i id="line-fill"></i></div>
+    <ol class="stops">
+      <li class="stop">
+        <div class="when"><time>10:30 <small>PM</small></time></div>
+        <div class="copy"><span class="tag">Wind-down</span><h3>A gentle nudge, then a calm checklist.</h3><p>Half an hour before bed, Snoozly lets you know it’s time to slow down. Tonight’s routine is ready to check off: lay out tomorrow, brush your teeth, put the phone away, read a little.</p></div>
+        <div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/tonight.jpg" alt="The Tonight screen: bedtime at 11:00 PM, wind-down at 10:30 PM, the alarm at 8:30 AM and a five-step bedtime routine" width="780" height="1696" loading="lazy" decoding="async"></span></span></div>
+      </li>
+      <li class="stop">
+        <div class="when"><time>10:30 <small>PM</small></time></div>
+        <div class="copy"><span class="tag">Quiet apps</span><h3>The apps that keep you up, paused.</h3><p>Pick single apps, or a whole category like Social. Screen Time pauses them from wind-down until you wake, and Apple keeps your activity private, so Snoozly never sees what you do. Snoozly even shows what late screens cost your score.</p></div>
+        <div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/reminders.jpg" alt="Reminders and Alarms: Quiet Apps on from 10:30 PM until wake-up, the wake-up alarm and bedtime reminders, and an insight that late screens cost 46 points" width="780" height="1696" loading="lazy" decoding="async"></span></span></div>
+      </li>
+      <li class="stop">
+        <div class="when"><time>11:00 <small>PM</small></time></div>
+        <div class="copy"><span class="tag">Lights out</span><h3>Rain on. Phone down.</h3><p>Rain, ocean, fan or noise, with a 15, 30 or 60 minute timer that fades out as you drift off. Pause it right from your Lock Screen.</p></div>
+        <div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/sounds.jpg" alt="Sleep Sounds: Drift off to something soft, with Rain selected and a 30 minute timer" width="780" height="1696" loading="lazy" decoding="async"></span></span></div>
+      </li>
+      <li class="stop am">
+        <div class="when"><time>8:30 <small>AM</small></time></div>
+        <div class="copy"><span class="tag">Wake-up</span><h3>An alarm that rings, even on silent.</h3><p>Every morning gets its own wake-up time and alarm, with a snooze length you choose. Snoozly tells you if the night meets your sleep goal before you even lie down.</p></div>
+        <div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/alarm.jpg" alt="Saturday morning in Schedule: 9 hours 30 minutes of sleep meets the 8 hour goal, with the wake-up alarm and snooze turned on" width="780" height="1696" loading="lazy" decoding="async"></span></span></div>
+      </li>
+      <li class="stop am">
+        <div class="when"><time>8:35 <small>AM</small></time></div>
+        <div class="copy"><span class="tag">Check-in</span><h3>So, how did you sleep?</h3><p>Tell Snoozly how you feel and how you slept while last night is still fresh. A few taps become your sleep score, and the score updates as you answer.</p></div>
+        <div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/checkin.jpg" alt="The Morning Check-In: feeling Good, slept Sound, 9 hours, for a score of 79, Solid rest" width="780" height="1696" loading="lazy" decoding="async"></span></span></div>
+      </li>
+    </ol>
+    </div>
+  </section>
+
+  <section class="promise wrap" id="promise">
+    <p class="stmt" id="stmt">Snoozly will tell you when it’s time to wind down. <em>Nothing else, no spam.</em></p>
+    <ul class="facts">
+      <li>No account to make</li>
+      <li>Nothing leaves your iPhone</li>
+      <li>No ads, no tracking</li>
+      <li>In seven languages</li>
+    </ul>
+  </section>
+
+  <!-- Every morning after: a wall of real screens in parallax columns. -->
+  <section class="wall" id="progress">
+    <header class="sec-head wrap">
+      <h2>Every morning, a little clearer.</h2>
+      <p class="lede">Your check-ins turn into a score, a trend and a plan for tonight.</p>
+    </header>
+    <div class="cols wrap">
+      <div class="col" data-speed="-40">
+        <figure class="tile"><div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/progress.jpg" alt="Progress: an average sleep score of 73 over the last 7 days, and a sleep score trend chart" width="780" height="1696" loading="lazy" decoding="async"></span></span></div><figcaption><h3>Your score and trend</h3><p>An average for the week and a chart you can scrub, day by day. Pro adds 14 days and a month.</p></figcaption></figure>
+        <figure class="tile"><div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/debt.jpg" alt="Sleep Debt: 4 hours 45 minutes behind the 8 hour goal across the last 6 nights, and a suggestion to head to bed at 10:44 PM tonight to win back an hour" width="780" height="1696" loading="lazy" decoding="async"></span></span></div><figcaption><h3>Sleep debt, and a way back</h3><p>How far behind your goal you’ve slept, and the bedtime that wins some of it back tonight.</p></figcaption></figure>
+      </div>
+      <div class="col" data-speed="60">
+        <figure class="tile"><div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/habits.jpg" alt="What shapes your sleep: late screens, caffeine, stress and a late meal, each with a tip" width="780" height="1696" loading="lazy" decoding="async"></span></span></div><figcaption><h3>What shapes your sleep <span class="pro">PRO</span></h3><p>Tag a few habits when you check in. Snoozly shows which ones to work on, with a tip for each.</p></figcaption></figure>
+        <figure class="tile"><div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/checkin-habits.jpg" alt="The check-in asks what shaped your night: caffeine, late screens, exercise, alcohol, stress, reading, a late meal or a nap" width="780" height="1696" loading="lazy" decoding="async"></span></span></div><figcaption><h3>Habits, in a tap</h3><p>Caffeine, late screens, exercise, stress, a late meal. Optional, and quick to log.</p></figcaption></figure>
+      </div>
+      <div class="col" data-speed="-10">
+        <figure class="tile"><div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/stats.jpg" alt="Your Stats: average sleep 7 hours 12 minutes, a 24 day streak, a 93 percent check-in rate and a best night of 100" width="780" height="1696" loading="lazy" decoding="async"></span></span></div><figcaption><h3>Streaks and stats <span class="pro">PRO</span></h3><p>Your streak, check-in rate, best night and usual mood.</p></figcaption></figure>
+        <figure class="tile"><div class="ph shot"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/history.jpg" alt="Look back at your check-ins: four recent mornings with their scores, and 24 check-ins in total" width="780" height="1696" loading="lazy" decoding="async"></span></span></div><figcaption><h3>Every check-in, kept <span class="pro">PRO</span></h3><p>Open any past morning, not just the latest one.</p></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Your week: schedule and gradual shift, two overlapping phones. -->
+  <section class="week wrap" id="week">
+    <div class="duo" aria-hidden="false">
+      <div class="ph back"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/schedule.jpg" alt="Schedule: a bedtime for each night of the week, with Friday night at 11:00 PM and Saturday morning at 8:30 AM" width="780" height="1696" loading="lazy" decoding="async"></span></span></div>
+      <div class="ph front"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/shift.jpg" alt="Gradual Shift: Snoozly moves your bedtime a few minutes at a time, with a Plan a Shift button" width="780" height="1696" loading="lazy" decoding="async"></span></span></div>
+    </div>
+    <div class="week-copy">
+      <h2>Every night gets its own bedtime.</h2>
+      <p class="lede">Weeknights early, Fridays late. Pick a bedtime and a wake-up for each night, copy them across weekdays or weekends, and turn any night off.</p>
+      <dl class="points">
+        <div><dt>Gradual shift</dt><dd>Want an earlier bedtime? Snoozly moves it a few minutes at a time, so your body has time to adjust.</dd></div>
+        <div><dt>Just tonight</dt><dd>Change tonight’s times without touching the rest of your week. Everything goes back after you wake.</dd></div>
+        <div><dt>Two weeks ahead <span class="pro">PRO</span></dt><dd>See every upcoming bedtime at a glance.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="skipper wrap" id="skip">
+    <div class="skip-copy">
+      <h2>Skipping tonight? Play first.</h2>
+      <p class="lede">Some nights don’t go to plan. Skip Tonight turns off reminders, quiet apps and the alarm for one night, and your schedule comes back after you wake. First, a quick reset: one of seven little games, or 45 seconds of breathing. Try one here.</p>
+      <div class="play glass" id="play">
+        <div class="head"><span>Colors</span><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span></div>
+        <p class="ask">Tap the color you see, not the word you read.</p>
+        <span class="word" id="word" role="img" aria-label="The word Green, shown in pink">GREEN</span>
+        <div class="sw" id="sw">
+          <button type="button" data-c="purple" style="--c:#A78BFA"><i></i>Purple</button>
+          <button type="button" data-c="green" style="--c:#7EE0B8"><i></i>Green</button>
+          <button type="button" data-c="yellow" style="--c:#F5D78E"><i></i>Yellow</button>
+          <button type="button" data-c="pink" style="--c:#F29C8C"><i></i>Pink</button>
+        </div>
+        <p class="msg" id="msg" role="status" aria-live="polite">Three in a row to finish.</p>
+        <button type="button" class="btn btn-glass glass again" id="again">Play again</button>
+      </div>
+    </div>
+    <div class="ph solo"><span class="ph-f"><span class="ph-s"><img src="assets/img/shots/skip.jpg" alt="Pick a game to continue: a quick reset before you skip tonight, with Words and Math Battle cards" width="780" height="1696" loading="lazy" decoding="async"></span></span></div>
+  </section>
+
+  <section class="pro-sec wrap" id="pro">
+    <header class="sec-head center">
+      <span class="eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C13.6 4.5 17 8 24 12C17 16 13.6 19.5 12 24C10.4 19.5 7 16 0 12C7 8 10.4 4.5 12 0Z"/></svg>Snoozly Pro</span>
+      <h2>Look further ahead.</h2>
+      <p class="lede">Everything you need for a steady night is free. Pro looks further ahead, spots what shapes your nights, and keeps every check-in.</p>
+    </header>
+    <div class="plans">
+      <div class="plan free glass">
+        <header><h3>Free</h3><span>Every night, covered</span></header>
+        <ul>
+          <li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-10"/></svg></i><div><b>A plan for every night</b><span>Bedtime, wind-down and wake-up, night by night.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-10"/></svg></i><div><b>Wind-down and bedtime reminders</b><span>A soft nudge, and nothing else.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-10"/></svg></i><div><b>Quiet Apps</b><span>Pause the apps you pick until you wake.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-10"/></svg></i><div><b>Wake-up alarm</b><span>Rings even on silent, with snooze.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-10"/></svg></i><div><b>Rain and white noise</b><span>With a timer that fades out.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-10"/></svg></i><div><b>Morning check-ins</b><span>Your sleep score, sleep debt and the past week.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-10"/></svg></i><div><b>Skip or adjust tonight</b><span>One night changes, the rest stay put.</span></div></li>
+        </ul>
+      </div>
+      <div class="plan paid">
+        <header><h3>Snoozly Pro</h3><span>Monthly or yearly</span></header>
+        <ul>
+          <li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2L10 10Z"/></svg></i><div><b>14-day and 1-month trends</b><span>See how your sleep score moves over weeks, not just days.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2L10 10Z"/></svg></i><div><b>What shapes your sleep</b><span>See your most common habits and what to work on.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2L10 10Z"/></svg></i><div><b>Every sleep sound</b><span>Ocean, fan and brown noise, with a timer that fades out as you drift off.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2L10 10Z"/></svg></i><div><b>Your full night</b><span>Deep and REM sleep, and when you really fell asleep and woke up, from Apple Health.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2L10 10Z"/></svg></i><div><b>Upcoming nights</b><span>Look two full weeks ahead at your bedtimes.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2L10 10Z"/></svg></i><div><b>Full check-in history</b><span>Open every past check-in, not just the latest one.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2L10 10Z"/></svg></i><div><b>Your stats</b><span>Routine streaks, check-in rate, best nights and your usual mood.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2L10 10Z"/></svg></i><div><b>Unlimited morning routines</b><span>A different start for weekdays, weekends or any morning.</span></div></li>
+<li><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2L10 10Z"/></svg></i><div><b>All Home Screen widgets</b><span>Wind-down countdown, weekly schedule and weekly summary widgets.</span></div></li>
+        </ul>
+        <p class="fine">Snoozly Pro is a monthly or yearly subscription through your Apple Account, with prices shown in the App Store for your region. It renews automatically until cancelled, and you can cancel anytime in your Apple Account settings.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="around wrap" id="around">
+    <h2>Around your iPhone.</h2>
+    <dl class="rows">
+      <div><dt>Widgets</dt><dd>Your next alarm and tonight’s plan on the Home Screen and Lock Screen. Pro adds the wind-down countdown, weekly schedule and weekly summary.</dd></div>
+      <div><dt>Live Activities</dt><dd>The alarm on your Lock Screen and in the Dynamic Island, and the sleep sound you’re playing.</dd></div>
+      <div><dt>Siri and Shortcuts</dt><dd>“Skip tonight in Snoozly.” Check in, skip, or open your schedule and streak, from Siri, Shortcuts or the Action button.</dd></div>
+      <div><dt>Control Center</dt><dd>Check in, skip tonight or open your schedule with a tap.</dd></div>
+      <div><dt>Accessibility</dt><dd>Built for VoiceOver, Voice Control and Larger Text, with Reduce Motion and Increase Contrast respected throughout.</dd></div>
+      <div><dt>Languages</dt><dd>English, French, German, Italian, Spanish, Japanese and Simplified Chinese.</dd></div>
+    </dl>
+  </section>
+
+  <section class="faq wrap" id="faq">
+    <header class="sec-head center">
+      <h2>Before you turn in.</h2>
+      <p class="lede">Still curious? The <a href="support.html">support page</a> covers alarms, Quiet Apps, Apple Health and more.</p>
+    </header>
+    <div class="faq-list">
+      <details class="qa"><summary><span>Do I need an account?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>No. There’s no sign-up and nothing to log in to. Open Snoozly, answer a few questions about your nights, and you’re set.</p></div></details>
+<details class="qa"><summary><span>What does Snoozly do with my data?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Your schedule, routines and check-ins stay on your iPhone. Snoozly has no servers, no ads and no analytics, so there’s nowhere for your data to go. The privacy policy has the details.</p></div></details>
+<details class="qa"><summary><span>How does Quiet Apps work?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>You pick apps, or whole categories like Social, and Screen Time pauses them from wind-down until you wake. Apple keeps your activity private, so Snoozly never sees which apps you chose or what you do in them.</p></div></details>
+<details class="qa"><summary><span>Will the alarm ring if my phone is on silent?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Yes. Snoozly’s wake-up alarm rings at the time you choose, even when your iPhone is silent, and keeps ringing until you stop it or snooze. Allow alarms for Snoozly when it asks.</p></div></details>
+<details class="qa"><summary><span>Does Snoozly need Apple Health or Apple Watch?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>No. Your morning check-in is enough for a sleep score. If you connect Apple Health, Snoozly also reads your sleep, including deep and REM sleep from Apple Watch. It only reads, and never writes.</p></div></details>
+<details class="qa"><summary><span>How is my sleep score worked out?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>From your morning check-in: how you feel, how you slept, and how many hours you slept against your goal. It’s out of 100, from a rough night to an excellent one.</p></div></details>
+<details class="qa"><summary><span>Can I take a night off?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Yes. Skip Tonight turns off reminders, quiet apps and the alarm for one night, after a quick game or 45 seconds of breathing. Your usual schedule comes back after you wake.</p></div></details>
+<details class="qa"><summary><span>What’s included in Snoozly Pro?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Longer trends, what shapes your sleep, every sleep sound, your full night from Apple Health, two weeks ahead, your full check-in history, stats, unlimited morning routines and every widget. Snoozly works fully without it.</p></div></details>
+<details class="qa"><summary><span>Which iPhones and languages are supported?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Snoozly needs iOS 26 or later. It’s available in English, French, German, Italian, Spanish, Japanese and Simplified Chinese.</p></div></details>
+<details class="qa"><summary><span>Is Snoozly a medical app?</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>No. Snoozly helps you build steadier sleep habits, but it doesn’t diagnose or treat anything. If you’re worried about your sleep, talk to a doctor.</p></div></details>
+    </div>
+  </section>
+</main>
+
+<footer class="dawn-foot" id="foot">
+  <div class="sun" aria-hidden="true"></div>
+  <div class="foot-cta wrap">
+    <img class="foot-cr" src="assets/img/creature.svg" alt="" width="132" height="132">
+    <h2>Ready for a better night?</h2>
+    <p>Snoozly is free to download for iPhone.</p>
+    <a class="badge" data-app href="https://apps.apple.com/app/id6822070712"><img src="assets/img/app-store.svg" alt="Download on the App Store" width="144" height="48"></a>
+  </div>
+  <div class="foot-row wrap">
+    <a class="brand" href="#top" data-go="top"><img src="assets/img/icon.svg" alt="" width="24" height="24"><span>Snoozly</span></a>
+    <nav aria-label="Footer"><a href="#night" data-go="night">The night</a><a href="#pro" data-go="pro">Snoozly Pro</a><a href="#faq" data-go="faq">FAQ</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+    <p>© <span data-year>2026</span> Dante D’Abramo. All rights reserved.</p>
+  </div>
+  <p class="tm wrap">Apple, iPhone, Apple Health and Screen Time are trademarks of Apple Inc.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" defer></script>
+<script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js" defer></script>
+<script src="assets/js/core.js" defer></script>
+<script src="assets/js/home.js" defer></script>
+</body>
+</html>
